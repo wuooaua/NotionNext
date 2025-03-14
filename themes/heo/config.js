@@ -4,12 +4,12 @@ const CONFIG = {
 
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2025-03-13', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '欢迎' },
+    { title: '访问绘画主页', url: 'https://www.pixiv.net/users/14169575' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -18,19 +18,19 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
+  HEO_HERO_TITLE_1: '绘画分享',
   HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
+  HEO_HERO_TITLE_3: 'WUOOAUA.TOP',
+  HEO_HERO_TITLE_4: '新作品发布',
+  HEO_HERO_TITLE_5: '八奈见杏菜',
   HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HEO_HERO_CATEGORY_1: { title: '必看作品', url: '/tag/必看作品' },
+  HEO_HERO_CATEGORY_2: { title: '最新作品', url: '/tag/最新作品' },
+  HEO_HERO_CATEGORY_3: { title: '绘画教程', url: '/tag/绘画教程' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
@@ -41,11 +41,11 @@ const CONFIG = {
   HEO_INFOCARD_GREETINGS: [
     '你好！我是',
     '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
+    '🤝 社交交流爱好者',
+    '🏃 喜欢运动的小伙伴',
     '🏠 智能家居小能手',
     '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '🧱 个人网站建设者',
   ],
 
   // 个人资料底部按钮
@@ -59,19 +59,19 @@ const CONFIG = {
   // 用户技能图标
   HEO_GROUP_ICONS: [
     {
-      title_1: 'AfterEffect',
-      img_1: '/images/heo/20239df3f66615b532ce571eac6d14ff21cf072602.webp',
+      title_1: '马剃天星爱',
+      img_1: '/images/heo/102694889-麦猫仔（２代目）-124493710_p0-AI　負けヒロインが多すぎる!／馬剃天愛星.png',
       color_1: '#989bf8',
-      title_2: 'Sketch',
-      img_2: '/images/heo/2023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.webp',
+      title_2: '马剃天星爱',
+      img_2: '/images/heo/102694889-麦猫仔（２代目）-124493710_p2-AI　負けヒロインが多すぎる!／馬剃天愛星.png',
       color_2: '#ffffff'
     },
     {
-      title_1: 'Docker',
-      img_1: '/images/heo/20231108a540b2862d26f8850172e4ea58ed075102.webp',
+      title_1: '马剃天星爱',
+      img_1: '/images/heo/102694889-麦猫仔（２代目）-124493710_p3-AI　負けヒロインが多すぎる!／馬剃天愛星.png',
       color_1: '#57b6e6',
-      title_2: 'Photoshop',
-      img_2: '/images/heo/2023e4058a91608ea41751c4f102b131f267075902.webp',
+      title_2: '马剃天星爱',
+      img_2: '/images/heo/102694889-麦猫仔（２代目）-124493710_p4-AI　負けヒロインが多すぎる!／馬剃天愛星.png',
       color_2: '#4082c3'
     },
     {
